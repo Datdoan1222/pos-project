@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Product } from "@core/entities/Product";
 import { GetProductsUseCase } from "@core/usecases/product/GetProductsUseCase";
 import { ProductApiRepository } from "@infrastructure/api/ProductApiRepository";
-// import { MockProductRepository } from '@/infrastructure/api/MockProductRepository';
 
 export const useProducts = () => {
   const [products, setProducts] = useState<Product[]>([]);

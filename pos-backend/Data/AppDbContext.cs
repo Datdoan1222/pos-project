@@ -61,7 +61,7 @@ namespace pos_backend.Data
                     Id = 7,
                     Name = "Soda chanh",
                     Price = 25000,
-                    Image = "https://images.unsplash.com/photo-1527960669845-6c5e5fe36c08?w=400"
+                    Image = "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400"
                 },
                 new Product
                 {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lyotvPYLQ9o=",
+  "dgSpecHash": "hM107kFJb7Y=",
   "success": true,
-  "projectFilePath": "D:\\pos-backend\\pos-backend\\pos-backend.csproj",
+  "projectFilePath": "D:\\pos-project\\pos-backend\\pos-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.3.0\\microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",
