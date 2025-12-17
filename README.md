@@ -60,7 +60,7 @@ pos-project/
 * React
 * TypeScript
 * Vite
-* TailwindCSS (nếu có)
+* TailwindCSS
 
 ### DevOps
 
