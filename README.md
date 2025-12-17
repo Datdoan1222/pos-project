@@ -69,6 +69,27 @@ pos-project/
 
 ---
 
+## 🐳 Chạy fullstack bằng Docker Compose
+
+```bash
+docker compose up --build
+```
+
+| Service  | URL                                                            |
+| -------- | -------------------------------------------------------------- |
+| Frontend | [http://localhost:5173](http://localhost:5173)                 |
+| Backend  | [http://localhost:8081/swagger](http://localhost:8081/swagger) |
+
+---
+
+## 🔌 Kết nối Frontend → Backend
+
+Frontend gọi API backend qua:
+
+```ts
+const API_URL = "http://localhost:8081";
+```
+
 ## ▶️ Chạy project ở local (KHÔNG dùng Docker)
 
 ### 1️⃣ Backend
@@ -82,13 +103,13 @@ dotnet run
 Mặc định backend chạy tại:
 
 ```
-http://localhost:5139
+http://localhost:8081
 ```
 
 Swagger:
 
 ```
-http://localhost:5139/swagger
+http://localhost:8081/swagger
 ```
 
 ---
@@ -122,7 +143,7 @@ docker run -p 8080:8080 pos-backend
 Backend (Docker):
 
 ```
-http://localhost:8080/swagger
+http://localhost:8081/swagger
 ```
 
 ---
@@ -143,23 +164,4 @@ http://localhost:5173
 
 ---
 
-## 🐳 Chạy fullstack bằng Docker Compose
 
-```bash
-docker compose up --build
-```
-
-| Service  | URL                                                            |
-| -------- | -------------------------------------------------------------- |
-| Frontend | [http://localhost:5173](http://localhost:5173)                 |
-| Backend  | [http://localhost:8080/swagger](http://localhost:8080/swagger) |
-
----
-
-## 🔌 Kết nối Frontend → Backend
-
-Frontend gọi API backend qua:
-
-```ts
-const API_URL = "http://localhost:8080";
-```
