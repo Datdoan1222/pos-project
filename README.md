@@ -89,6 +89,39 @@ Frontend gọi API backend qua:
 ```ts
 const API_URL = "http://localhost:8081";
 ```
+## 🐳 Chạy project bằng Docker
+
+### 1️⃣ Build & run Backend
+
+```bash
+cd backend
+docker build -t pos-backend .
+docker run -p 8080:8080 pos-backend
+```
+
+Backend (Docker):
+
+```
+http://localhost:8081/swagger
+```
+
+---
+
+### 2️⃣ Build & run Frontend
+
+```bash
+cd frontend
+docker build -t pos-frontend .
+docker run -p 5173:5173 pos-frontend
+```
+
+Frontend:
+
+```
+http://localhost:5173
+```
+
+---
 
 ## ▶️ Chạy project ở local (KHÔNG dùng Docker)
 
@@ -130,38 +163,5 @@ http://localhost:5173
 
 ---
 
-## 🐳 Chạy project bằng Docker
-
-### 1️⃣ Build & run Backend
-
-```bash
-cd backend
-docker build -t pos-backend .
-docker run -p 8080:8080 pos-backend
-```
-
-Backend (Docker):
-
-```
-http://localhost:8081/swagger
-```
-
----
-
-### 2️⃣ Build & run Frontend
-
-```bash
-cd frontend
-docker build -t pos-frontend .
-docker run -p 5173:5173 pos-frontend
-```
-
-Frontend:
-
-```
-http://localhost:5173
-```
-
----
 
 
